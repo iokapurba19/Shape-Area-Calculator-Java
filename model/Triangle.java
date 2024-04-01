@@ -13,4 +13,9 @@ public class Triangle implements Shape {
     public double calculateArea() {
         return 0.5 * base * height;
     }
+
+    @Override
+    public String totalEdge() {
+        return "Segitiga memiliki 3 sisi\n";
+    }
 }

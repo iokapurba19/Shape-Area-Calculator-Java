@@ -36,10 +36,13 @@ public class ShapeCalculatorDriver {
 
         if (shapeType == ShapeType.CIRCLE) {
             System.out.println("Luas Lingkaran: " + calculateArea(circle));
+            System.out.println(circle.totalEdge());
         } else if (shapeType == ShapeType.RECTANGLE) {
             System.out.println("Luas Persegi Panjang: " + calculateArea(rectangle));
+            System.out.println(rectangle.totalEdge());
         } else if (shapeType == ShapeType.TRIANGLE) {
             System.out.println("Luas Segitiga: " + calculateArea(triangle));
+            System.out.println(triangle.totalEdge());
         } else {
             System.out.println("Pilihan tidak valid!");
         }

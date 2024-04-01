@@ -11,4 +11,9 @@ public class Circle implements Shape {
     public double calculateArea() {
         return Math.PI * radius * radius;
     }
+
+    @Override
+    public String totalEdge() {
+        return "Lingkaran memiliki 0 sisi\n";
+    }
 }
